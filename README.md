@@ -14,7 +14,7 @@ Zatlin ver 1.0.0 (ZpDIC ver 1.19.0 に内蔵されているもの) と同じ動�
 // create a Zatlin object
 Zatlin zatlin = new Zatlin();
 // load a source
-String source = "% \"s\" | \"t\" | "\k\"";
+String source = "% \"s\" | \"t\" | \"k\"";
 zatlin.load(source);
 // generate
 System.out.println(zatlin.generate());
